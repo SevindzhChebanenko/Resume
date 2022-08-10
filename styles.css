@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 750px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: auto ;
+    background: linear-gradient(90deg, #4fb178 0%, #17c1df 50%, #536ceb 100%);
+    color: #100318;
+}
+
+a {
+    padding: 15px 20px;
+    color: #494cff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: #536ceb;
+    font-size: 1.5rem;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+h3 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 3px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 180px;
+    border-radius: 20px;
+    margin: 10px 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    a {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    }
+
+.info h1 , .info h3 {
+    margin: 15px 10px;
+}
+
+.card {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #213b74;
+    border-radius: 10px;
+}
+
+.table {
+    padding: 10px;
+}
+
+.btn {
+    border-color: #213b74;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #48dbcf;
+    padding: 10px 15px;
+    color: #100318;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.form {
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #100318;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
