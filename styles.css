@@ -12,6 +12,8 @@ body {
     height: 100vh;
     margin: auto ;
     background: linear-gradient(90deg, #4fb178 0%, #17c1df 50%, #536ceb 100%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: #100318;
 }
 
